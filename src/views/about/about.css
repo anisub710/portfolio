@@ -10,8 +10,8 @@
 #image-holder{    
     position: absolute;
     top: 50%;
-    width: 400px;
-    height:400px;
+    width: 50%;
+    height:50%;
     transform: translate(-50%, -50%);
     /* background-color: #6d9eeb; */
     left: 50%;
