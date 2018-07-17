@@ -1,0 +1,68 @@
+.menu{
+    content:url("../img/logo.svg");
+    height: 50px;
+    width: 50px; 
+    transform: scale(1);
+    -webkit-transition: transform 1s ease-out;
+    -moz-transition: transform 1s ease-out;
+    -o-transition: transform 1s ease-out;
+    transition: transform 1s ease-out; 
+    padding: 10px 0px 0px 10px;       
+}
+
+
+
+.menu:hover{    
+    content:url("../img/highlighted.svg");  
+    transform: scale(1.2);
+    cursor: pointer;
+    -webkit-transition: transform 1s ease-out;
+    -moz-transition: transform 1s ease-out;
+    -o-transition: transform 1s ease-out;
+    transition: transform 1s ease-out;    
+}
+
+.my-nav {    
+    background-color: white;                
+}
+
+.my-nav ul a {   
+    color: #6d9eeb; 
+    font-size: 15pt;
+    font-weight: bold;   
+}
+.my-nav ul a:hover {
+    background-color: #6d9eeb;
+    color: white; 
+} 
+
+.scroll-active {   
+    background-color: #6d9eeb;
+    color: white !important;  
+}
+
+#up-btn {    
+    background-color: white;
+    position: fixed;
+    right: 23px;
+    bottom: 23px;    
+    margin-bottom: 0;
+    z-index: 998;
+    transform: scale(1);
+    -webkit-transition: transform 1s ease-out;
+    -moz-transition: transform 1s ease-out;
+    -o-transition: transform 1s ease-out;
+    transition: transform 1s ease-out;  
+}
+
+#up-btn:hover {
+    transform: scale(1.05);
+    -webkit-transition: transform 1s ease-out;
+    -moz-transition: transform 1s ease-out;
+    -o-transition: transform 1s ease-out;
+    transition: transform 1s ease-out;  
+}
+
+.blue {
+    background-color: #6d9eeb !important; 
+}

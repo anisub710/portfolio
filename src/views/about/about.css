@@ -1,0 +1,28 @@
+#container {        
+    width: 100vw;
+    height: 93vh;
+    background: linear-gradient(360deg, #6d9eeb 50%, white 50%);      
+}
+#top {
+    height: 50%;
+    position: relative;  
+}
+#image-holder{    
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    height:400px;
+    transform: translate(-50%, -50%);
+    /* background-color: #6d9eeb; */
+    left: 50%;
+    
+}
+#bottom {
+    color:white;
+    padding-left: 10px;
+    
+}
+
+.aboutDesc {
+    font-weight: 500;
+}

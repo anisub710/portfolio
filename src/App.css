@@ -1,0 +1,67 @@
+html {
+  background-color: whitesmoke;
+}
+@keyframes loading {
+  0% {
+      transform: scale(1);
+  }
+
+  100% {        
+      transform: scale(2);
+  }    
+}
+.loader:empty {
+  content:url("./img/highlighted.svg");
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  animation: loading 1.2s infinite ease;
+  animation-direction: alternate;
+}
+
+
+
+#project > h2, #experience > h2 {
+  color: #6d9eeb;
+  text-align: center;
+}
+
+
+
+
+.row {
+  min-width: 100vh;
+}
+
+#project {
+  padding: 100px;
+  /* height: 100vh; */
+  width: 100%;
+  background-color: white;
+}
+
+#experience {
+  background-color: white;
+  padding: 100px;
+
+}
+hr {
+  margin: 0 !important;
+}
+/* [aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+} */
+
+/* .fade-inn {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-duration: 2s;
+} */
+
