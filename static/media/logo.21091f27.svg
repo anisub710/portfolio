@@ -1,0 +1,33 @@
+<svg width="40" height="42" viewBox="0 0 40 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(287 404)">
+<g id="logo">
+<g id="A" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(-277.438 -397.904)" fill="#6D9EEB"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path1_fill" transform="translate(-287 -404)" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-282" y="-398" width="31" height="36" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.44929e-15 40 -40 2.44929e-15 148.5 1.19209e-07)">
+<stop offset="0" stop-color="#F2F2F2"/>
+<stop offset="0.0001" stop-color="#F2F2F2"/>
+<stop offset="0.0002" stop-color="#F2F2F2" stop-opacity="0.447559"/>
+<stop offset="0.0003" stop-color="#F2F2F2" stop-opacity="0"/>
+</linearGradient>
+<path id="path0_fill" d="M 17.0654 26.9043C 16.805 26.3835 16.5934 25.4557 16.4307 24.1211C 14.3311 26.3021 11.8245 27.3926 8.91113 27.3926C 6.30697 27.3926 4.16667 26.6602 2.49023 25.1953C 0.830078 23.7142 0 21.8424 0 19.5801C 0 16.8294 1.04167 14.6973 3.125 13.1836C 5.22461 11.6536 8.17057 10.8887 11.9629 10.8887L 16.3574 10.8887L 16.3574 8.81348C 16.3574 7.2347 15.8854 5.98145 14.9414 5.05371C 13.9974 4.1097 12.6058 3.6377 10.7666 3.6377C 9.15527 3.6377 7.80436 4.0446 6.71387 4.8584C 5.62337 5.6722 5.07812 6.6569 5.07812 7.8125L 0.537109 7.8125C 0.537109 6.49414 1.00098 5.22461 1.92871 4.00391C 2.87272 2.76693 4.14225 1.79036 5.7373 1.07422C 7.34863 0.358073 9.11458 0 11.0352 0C 14.0788 0 16.4632 0.764974 18.1885 2.29492C 19.9137 3.80859 20.8089 5.90007 20.874 8.56934L 20.874 20.7275C 20.874 23.1527 21.1833 25.0814 21.8018 26.5137L 21.8018 26.9043L 17.0654 26.9043ZM 9.57031 23.4619C 10.9863 23.4619 12.3291 23.0957 13.5986 22.3633C 14.8682 21.6309 15.7878 20.6787 16.3574 19.5068L 16.3574 14.0869L 12.8174 14.0869C 7.28353 14.0869 4.5166 15.7064 4.5166 18.9453C 4.5166 20.3613 4.98861 21.4681 5.93262 22.2656C 6.87663 23.0632 8.08919 23.4619 9.57031 23.4619Z"/>
+<path id="path1_fill" d="M 40 20C 40 31.0457 31.0457 40 20 40C 8.9543 40 0 31.0457 0 20C 0 8.9543 8.9543 0 20 0C 31.0457 0 40 8.9543 40 20Z"/>
+</defs>
+</svg>
