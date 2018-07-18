@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../index.css';
 import './experience.css';
-import {Row,Col,Card, CardTitle, Badge, Chip} from 'react-materialize';
+import {Chip} from 'react-materialize';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class Experience extends React.Component  {
 
     render() {
+        //link image to website 
         var web = require('react-icons/lib/md/web-asset');
         const {
             expImage,
