@@ -1,6 +1,5 @@
 import React from 'react';
 import {Footer} from 'react-materialize';
-import '../index.css';
 import './footer.css';
 
 export default class MyFooter extends React.Component {
@@ -22,7 +21,7 @@ export default class MyFooter extends React.Component {
                 }
                 className='my-footer'
                 >                    
-                    <h5> Add more content </h5>
+                    <h6> Add more content </h6>
                 </Footer>
         );
     }

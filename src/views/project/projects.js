@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col,Card, CardTitle} from 'react-materialize';
-import '../../index.css';
 import './projects.css';
 import Chip from 'react-materialize/lib/Chip';
 import "animate.css/animate.min.css";

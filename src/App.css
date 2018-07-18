@@ -1,5 +1,5 @@
 html {
-  background-color: whitesmoke;
+  background-color: white;  
 }
 @keyframes loading {
   0% {
@@ -10,7 +10,7 @@ html {
       transform: scale(2);
   }    
 }
-.loader:empty {
+.loader:empty::after {
   content:url("./img/highlighted.svg");
   height: 50px;
   width: 50px;

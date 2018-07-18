@@ -1,7 +1,7 @@
-.menu{
+.menu::after{
     content:url("../img/logo.svg");
-    height: 50px;
-    width: 50px; 
+    height: 40px;
+    width: 40px; 
     transform: scale(1);
     -webkit-transition: transform 1s ease-out;
     -moz-transition: transform 1s ease-out;
@@ -10,8 +10,27 @@
     padding: 10px 0px 0px 10px;       
 }
 
+.menu{
+    content:url("../img/logo.svg");
+    height: 40px;
+    width: 40px; 
+    transform: scale(1);
+    -webkit-transition: transform 1s ease-out;
+    -moz-transition: transform 1s ease-out;
+    -o-transition: transform 1s ease-out;
+    transition: transform 1s ease-out; 
+    padding: 10px 0px 0px 10px;       
+}
 
-
+.menu:hover::after{    
+    content:url("../img/highlighted.svg");  
+    transform: scale(1.2);
+    cursor: pointer;
+    -webkit-transition: transform 1s ease-out;
+    -moz-transition: transform 1s ease-out;
+    -o-transition: transform 1s ease-out;
+    transition: transform 1s ease-out;    
+}
 .menu:hover{    
     content:url("../img/highlighted.svg");  
     transform: scale(1.2);
@@ -22,13 +41,20 @@
     transition: transform 1s ease-out;    
 }
 
-.my-nav {    
-    background-color: white;                
+.my-nav .nav-wrapper {    
+    background-color: white;  
+    height: 45px;
+    line-height: 45px;              
+}
+
+nav {
+    background-color: white;
+    height:45px;
 }
 
 .my-nav ul a {   
     color: #6d9eeb; 
-    font-size: 12pt;
+    font-size: 14px;
     font-weight: bold;   
 }
 .my-nav ul a:hover {
@@ -39,6 +65,14 @@
 .scroll-active {   
     background-color: #6d9eeb;
     color: white !important;  
+}
+
+.btn-floating.btn-large i {
+    line-height: 45px;
+}
+.btn-floating.btn-large {
+    width: 45px;
+    height: 45px;
 }
 
 #up-btn {    

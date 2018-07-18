@@ -1,9 +1,20 @@
 .my-footer {
-    background-color: rgba(197, 197, 197, 0) !important;
+    background-color: rgb(245, 245, 245) !important;
     color: black !important;
     /* border-top: solid 0.5px gray; */
     height: 200px !important;
 }
 .footer-copyright {
+    background-color: #E6E6E6 !important;
     color: black !important;
+    font-size: 11px;
+}
+
+.icon {
+    color: #6d9eeb; 
+    font-size: 18pt;
+}
+
+.icon:hover {    
+    color: rgb(0, 98, 255);           
 }

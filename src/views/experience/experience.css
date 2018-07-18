@@ -13,3 +13,8 @@
     color: #6d9eeb;
     font-weight: 500;
 }
+.chip {
+    color: white;
+    background-color: #6d9eeb;     
+    font-size: 12px;
+}
