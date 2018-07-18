@@ -27,7 +27,7 @@ export default class Experience extends React.Component  {
                     <img className = "job-image" src = {expImage}/>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>     
-                    <h4 className = "expTitle"> {expTitle} </h4>                
+                    <h5 className = "expTitle"> {expTitle} </h5>                
                     <TagsList infoTags = {infoTags}/>
                     <br/>
                     {expDesc}

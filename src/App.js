@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
-import {Tab, Tabs,Button, SideNav, SideNavItem, Navbar, NavItem, Row, CardPanel, Col, Card, CardTitle, Icon} from 'react-materialize';
+import {Row} from 'react-materialize';
 import MyNavBar from "./components/navbar";
 import Project from "./views/project/projects";
 import Experience from "./views/experience/experience";

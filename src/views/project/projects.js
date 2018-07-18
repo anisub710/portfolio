@@ -1,11 +1,10 @@
 import React from 'react';
-import {Row,Col,Card, CardTitle, Badge} from 'react-materialize';
+import {Col,Card, CardTitle} from 'react-materialize';
 import '../../index.css';
 import './projects.css';
 import Chip from 'react-materialize/lib/Chip';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
-// import FaGithub from 'react-icons/fa/github';
 
 
 

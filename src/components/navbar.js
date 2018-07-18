@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Navbar, NavItem, Icon} from 'react-materialize';
+import {Button, Navbar, NavItem} from 'react-materialize';
 import '../index.css';
 import './navbar.css';
 
