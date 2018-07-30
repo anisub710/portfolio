@@ -55,7 +55,7 @@ nav {
 .my-nav ul a {   
     color: #6d9eeb; 
     font-size: 14px;
-    font-weight: bold;   
+    font-weight: 350;   
 }
 .my-nav ul a:hover {
     background-color: #6d9eeb;
@@ -100,3 +100,4 @@ nav {
 .blue {
     background-color: #6d9eeb !important; 
 }
+

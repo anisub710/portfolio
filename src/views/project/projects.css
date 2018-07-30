@@ -22,7 +22,8 @@
 .chip {
     color: white;
     background-color: #6d9eeb;     
-    font-size: 12px;
+    font-size: 10px !important;  
+    font-weight: 300;
 }
 
 .card {
@@ -30,7 +31,7 @@
 }
 
 .card .card-title {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 350;
+    font-size: 22px;
     color: #6c9eec !important;
 }

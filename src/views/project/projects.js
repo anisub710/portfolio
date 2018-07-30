@@ -27,12 +27,6 @@ export default class Project extends React.Component  {
             ));
         }
         
-        function LinkWebsite(props) {
-            const hasLink = props.hasProjectLink;
-            if (hasLink) {
-                return <a className = "icon" href = {props.projectLink}> {React.createElement(web, null)}> </a>
-            }
-        }
         return(                                                                         
                 <Col m={6} xl={4}>
                 <ScrollAnimation animateIn = "fadeInUpBig" animateOnce = {true}> 
