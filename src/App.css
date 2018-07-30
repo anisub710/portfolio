@@ -49,6 +49,7 @@ html {
 }
 hr {
   margin: 0 !important;
+  border-color: #6c9eec36;
 }
 /* [aos="fade"] {
   opacity: 0;
