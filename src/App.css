@@ -15,21 +15,17 @@ html {
   height: 50px;
   width: 50px;
   position: absolute;
-  top: calc(50% - 4em);
-  left: calc(50% - 4em);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   animation: loading 1.2s infinite ease;
   animation-direction: alternate;
 }
-
-
 
 #project > h2, #experience > h2 {
   color: #6d9eeb;
   text-align: center;
 }
-
-
-
 
 .row {
   min-width: 100vh;

@@ -29,7 +29,8 @@ class App extends Component {
             <div id = "about">                                               
                 <About
                     aboutImage = "./img/profile_temp.svg"
-                    aboutDesc = "Captivating introduction about me"                    
+                    aboutDesc = "Captivating introduction about me"     
+                    skills = {["Go", "R", "Javascript", "Java", "Node.js", "React", "SQL", "Android"]}               
                 />  
             </div>            
             <div id = "project">                                              

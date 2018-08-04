@@ -21,7 +21,7 @@ export default class MyFooter extends React.Component {
                 }
                 className='my-footer'
                 >                    
-                    <h6> Add more content </h6>
+                    <h6><blockquote>Hire Ani! He is the best</blockquote><p className = "quote">- Literally Everyone</p> </h6>
                 </Footer>
         );
     }

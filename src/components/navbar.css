@@ -101,3 +101,14 @@ nav {
     background-color: #6d9eeb !important; 
 }
 
+@media only screen and (min-width: 601px) {
+    .navbar-fixed {
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu{
+        text-align: center;
+    }
+}

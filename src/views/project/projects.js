@@ -22,7 +22,7 @@ export default class Project extends React.Component  {
         } = this.props;
         
         function TagsList({infoTags}) {
-            return infoTags.map(infoTag => (
+            return infoTags.map(infoTag => (                
                 <Chip>{infoTag.tag}</Chip>
             ));
         }

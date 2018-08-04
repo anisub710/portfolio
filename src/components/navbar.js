@@ -14,7 +14,7 @@ export default class MyNavBar extends React.Component  {
             var t = 1;
             var timerID = setInterval(function() {                
                 window.scrollBy(0, t);
-                if(window.pageYOffset >= threshold - 50) {
+                if(window.pageYOffset >= threshold - 45) {
                     clearInterval(timerID);                
                 }
                 t = t + 1;
@@ -24,7 +24,7 @@ export default class MyNavBar extends React.Component  {
             var t = 1;      
             var timerID = setInterval(function() {        
                 window.scrollBy(0, -t);
-                if(window.pageYOffset <= threshold - 50) {
+                if(window.pageYOffset <= threshold - 45) {
                     clearInterval(timerID);
                 }
                 t = t + 1;
