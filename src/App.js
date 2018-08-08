@@ -29,8 +29,8 @@ class App extends Component {
             <div id = "about">                                               
                 <About
                     aboutImage = "./img/profile_temp.svg"
-                    aboutDesc = "Captivating introduction about me"     
-                    skills = {["Go", "R", "Javascript", "Java", "Node.js", "React", "SQL", "Android"]}               
+                    aboutDesc = "Hey! My name is Anirudh Subramanyam (Ani), and I'm a Software Developer currently studying at the University of Washington."                     
+                    skills = {["Go", "R", "Javascript", "Java", "Node.js", "React", "SQL", "Android", "MongoDB", "MySQL", "iOS", "Digital Ocean", "Terraform"]}
                 />  
             </div>            
             <div id = "project">                                              
@@ -45,28 +45,28 @@ class App extends Component {
                             </ul>
                         </p>}
                         githubLink = ""
-                        infoTags = {[{tag: 'Go'}, {tag: 'Node.js'}, {tag: 'Javascript'}]}
+                        infoTags = {["Go", "Node.js", "Digital Ocean", "MySQL", "Redis"]}
                     />
                     <Project
                         projectName = "Indiceision"
                         projectImage = "./img/InDiceision.svg"
                         projectDesc = "Android application"                                             
                         githubLink = "https://github.com/heyjasonxu/Indiceision"
-                        infoTags = {[{tag: 'Java'}, {tag: 'Android'}]}
+                        infoTags = {['Java', 'Android']}
                     />           
                     <Project
                         projectName = "Yama"
                         projectImage = "./img/Yama.svg"
                         projectDesc = "Android application"                                             
                         githubLink = "https://github.com/ask710/MessagingApp"
-                        infoTags = {[{tag: 'Java'}, {tag: 'Android'}]}
+                        infoTags = {['Java', 'Android']}
                     />     
                     <Project
                         projectName = "Geopaint"
                         projectImage = "./img/Geopaint.svg"
                         projectDesc = "Android application"                        
                         githubLink = "https://github.com/ask710/Geopaint"
-                        infoTags = {[{tag: 'Java'}, {tag: 'Android'}]}
+                        infoTags = {['Java', 'Android']}
                     />
                     <Project
                         projectName = "Eatout"
@@ -74,7 +74,7 @@ class App extends Component {
                         projectDesc = "R application"                        
                         githubLink = "https://github.com/ask710/eatout"                        
                         projectLink = "https://ask710.shinyapps.io/eatout/"
-                        infoTags = {[{tag: 'R'}]}
+                        infoTags = {['R']}
                     />   
 
                 </Row>                    
@@ -85,7 +85,7 @@ class App extends Component {
                     <Experience
                         expImage = "./img/iSchool.svg"
                         expTitle =  "University of Washington Information School"  
-                        infoTags = {[{tag: 'Teaching Assistant'}]} 
+                        infoTags = {['Teaching Assistant']} 
                         expDesc = "Captivating description of this experience"                    
                     /> 
                 </Row>
@@ -93,7 +93,7 @@ class App extends Component {
                     <Experience
                         expImage = "./img/Indegene.svg"
                         expTitle =  "Indegene"  
-                        infoTags = {[{tag: 'Internship'}]} 
+                        infoTags = {['Internship']} 
                         expDesc = "Captivating description of this experience"                    
                     />   
                 </Row>
@@ -101,7 +101,7 @@ class App extends Component {
                     <Experience
                         expImage = "./img/CloudCherry.svg"
                         expTitle = "CloudCherry"
-                        infoTags = {[{tag: 'Internship'}]} 
+                        infoTags = {['Internship']} 
                         expDesc = "Captivating description of this experience"                                        
                     />  
                 </Row>

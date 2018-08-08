@@ -1,5 +1,7 @@
 html {
   background-color: white;  
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
 }
 @keyframes loading {
   0% {

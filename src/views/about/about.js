@@ -26,12 +26,14 @@ export default class About extends React.Component  {
             <ScrollAnimation animateIn = "fadeIn" animateOnce = "true">
                 <div id = "container">
                     <div id = "top">
-                        <img alt = "profile" id= "image-holder" src = {aboutImage}/>
+                        <div id = "intro">
+                            <h4 className = "about-desc">{aboutDesc}</h4>
+                        </div>
+                        {/* <img alt = "profile" id= "image-holder" src = {aboutImage}/> */}
                     </div>   
-                    <div id = "bottom">
-                        <p className = "about-desc"> {aboutDesc} </p>  
+                    <div id = "bottom">  
                         <div className = "skills-container">
-                            <SkillsList skills = {skills}/>          
+                            {/* <h5> Technical Skills: <SkillsList skills = {skills}/> </h5>                              */}
                         </div>
                     </div>
                 </div>   

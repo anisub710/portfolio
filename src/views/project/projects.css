@@ -19,13 +19,6 @@
 }
 
 
-.chip {
-    color: white;
-    background-color: #6d9eeb;     
-    font-size: 10px !important;  
-    font-weight: 300;
-}
-
 .card {
     box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.14), 3px 3px 3px 3px rgba(0,0,0,0.12), 3px 3px 3px -3px rgba(0,0,0,0.2);           
 }

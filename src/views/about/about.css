@@ -1,11 +1,20 @@
 #container {        
     width: 100vw;
     height: 94vh;
-    background: linear-gradient(360deg, #6d9eeb 50%, white 50%);      
+    /* background: linear-gradient(360deg, #6d9eeb 50%, white 50%);       */
 }
 #top {
-    height: 50%;
-    position: relative;  
+    height: 70%;
+    /* height: 100vh; */
+    position: relative;      
+}
+#intro {
+    position: absolute;
+    top: 30%;
+    /* left: 50%; */
+    padding: 50px;
+    transform: translate(0%, -40%);
+    color: #6d9eeb;
 }
 #image-holder{    
     position: absolute;
@@ -18,25 +27,27 @@
     
 }
 #bottom {
-    color:white;
+    color:#6d9eeb;
     padding-left: 10px;    
     
 }
 
 .about-desc {
-    font-weight: 300;
+    font-weight: 50;
+    /* font-family: "Gotham" */
 }
 
 .about-chip {
     /* change font size, weigth and circle size */
     margin: 5px;
-    background-color: white;
-    color: #6d9eeb;
+    color: white;
+    background-color: #6d9eeb;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
     text-align: center;
+    font-size: 11px;
     /* animation: float 2s ease infinite;
     animation-direction: alternate; */
 }
@@ -57,9 +68,9 @@
 
 
 .skills-container {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    /* width: 300px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 #about .animated {

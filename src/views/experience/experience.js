@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../index.css';
 import './experience.css';
-import {Chip} from 'react-materialize';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Tags from '../../components/tags'
 
 export default class Experience extends React.Component  {
 
@@ -16,11 +16,6 @@ export default class Experience extends React.Component  {
             expDesc            
         } = this.props;
 
-        function TagsList({infoTags}) {
-            return infoTags.map(infoTag => (
-                <Chip>{infoTag.tag}</Chip>
-            ));
-        }
 
         return(                       
             <div className = "clearfix">           
@@ -29,7 +24,7 @@ export default class Experience extends React.Component  {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>     
                     <h5 className = "expTitle"> {expTitle} </h5>                
-                    <TagsList infoTags = {infoTags}/>
+                    <Tags infoTags = {infoTags}/>
                     <br/>
                     {expDesc}
                 </ScrollAnimation>

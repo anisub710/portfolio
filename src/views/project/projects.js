@@ -1,9 +1,9 @@
 import React from 'react';
 import {Col,Card, CardTitle} from 'react-materialize';
 import './projects.css';
-import Chip from 'react-materialize/lib/Chip';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import Tags from '../../components/tags'
 
 
 
@@ -21,11 +21,6 @@ export default class Project extends React.Component  {
             infoTags            
         } = this.props;
         
-        function TagsList({infoTags}) {
-            return infoTags.map(infoTag => (                
-                <Chip>{infoTag.tag}</Chip>
-            ));
-        }
         
         return(                                                                         
                 <Col m={6} xl={4}>
@@ -33,7 +28,7 @@ export default class Project extends React.Component  {
                     <Card header={<CardTitle reveal image= {projectImage} waves='light'/>}
                         title= {projectName}
                         reveal={projectDesc}>
-                        <TagsList infoTags = {infoTags}/>
+                        <Tags infoTags = {infoTags}/>
                         <p><a className = "icon" href={githubLink}> {React.createElement(FaGithub, null)} </a>                    
                         {projectLink != null && 
                             <a className = "icon" href = {projectLink}> {React.createElement(web, null)}> </a>
