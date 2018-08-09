@@ -1,11 +1,12 @@
 import React from 'react';
 import {Button, Navbar, NavItem} from 'react-materialize';
+import ScrollAnimation from 'react-animate-on-scroll';
 import '../index.css';
 import './navbar.css';
 
 export default class MyNavBar extends React.Component  {
 
-    timer(place){
+    timer(place){        
         var go = document.getElementById(place);        
         var current = window.pageYOffset;
         var threshold = go.offsetTop;        
@@ -38,6 +39,8 @@ export default class MyNavBar extends React.Component  {
     render() {  
         //try to clean up
         document.onscroll = () => {
+            let button = document.getElementById("up-btn");
+            button.classList.remove("hidden");
             let project = document.getElementById("project");
             let projectTab = document.getElementById("project-tab");
             let experience = document.getElementById("experience");
@@ -53,6 +56,7 @@ export default class MyNavBar extends React.Component  {
                 experienceTab.children[0].classList.add("scroll-active");
             }
             else {
+                button.classList.add("hidden");
                 projectTab.children[0].classList.remove("scroll-active");
                 experienceTab.children[0].classList.remove("scroll-active");
             }
@@ -63,9 +67,9 @@ export default class MyNavBar extends React.Component  {
                 <NavItem id = "project-tab" className = "my-tab" href = "#Project" onClick = {() => {this.timer("project")}}>projects</NavItem>
                 <NavItem id = "experience-tab" className = "my-tab" href = "#Experience" onClick = {() => {this.timer("experience")}}>experience</NavItem>
                 <NavItem className = "my-tab" href={require('../Resume.pdf')}>resume</NavItem>
-            </Navbar>
-            <Button id = "up-btn" title = "Go back to About" onClick = {() => {this.timer("about")}} floating icon='arrow_drop_up' className='blue' large >
-            </Button> 
+            </Navbar>         
+                <Button id = "up-btn" title = "Go back to About" onClick = {() => {this.timer("about")}} floating icon='arrow_drop_up' className='blue hidden' large >
+                </Button>
         </div>
     );
 

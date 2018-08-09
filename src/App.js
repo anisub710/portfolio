@@ -26,12 +26,18 @@ class App extends Component {
     return (
       <div>                 
             <MyNavBar/>             
-            <div id = "about">                                               
+            <div id = "about">    
+                <Row>                                           
                 <About
                     aboutImage = "./img/profile_temp.svg"
-                    aboutDesc = "Hey! My name is Anirudh Subramanyam (Ani), and I'm a Software Developer currently studying at the University of Washington."                     
+                    aboutDesc = {<p>My name is <strong> Anirudh Subramanyam (Ani)</strong>, and I'm a Software Developer currently studying at the University of Washington.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+                    passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>}                     
                     skills = {["Go", "R", "Javascript", "Java", "Node.js", "React", "SQL", "Android", "MongoDB", "MySQL", "iOS", "Digital Ocean", "Terraform"]}
                 />  
+                </Row>
             </div>            
             <div id = "project">                                              
                 <Row className = "projects-row">                 

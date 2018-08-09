@@ -87,6 +87,7 @@ nav {
     -moz-transition: transform 1s ease-out;
     -o-transition: transform 1s ease-out;
     transition: transform 1s ease-out;  
+    transition: visibility 1s, opacity 1s ease-out;
 }
 
 #up-btn:hover {
@@ -111,4 +112,9 @@ nav {
     .menu{
         text-align: center;
     }
+}
+
+.hidden {
+    visibility: hidden;   
+    opacity: 0; 
 }

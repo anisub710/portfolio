@@ -1,44 +1,86 @@
-#container {        
+#about-page {
+    position: relative;
+    width: 100vw;
+    min-height: 94vh;    
+    background-color: #6d9eeb;
+    color: white;
+}
+
+#content {
+    position: absolute;    
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+#about-desc {
+    font-size: 18px;
+}
+
+#image-holder {
+    float: left;
+    max-width: 50%;    
+
+}
+
+.arrow-down {    
+    position: absolute;    
+    color: white;
+    font-size: 50pt;    
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: direct 1s infinite ease;
+    animation-direction: alternate;
+}
+
+@keyframes direct {
+    0% {
+        transform: translatey(-50px);
+    }
+  
+    100% {        
+        transform: translatey(-40px);
+    }    
+  }
+
+/* #container {        
     width: 100vw;
     height: 94vh;
-    /* background: linear-gradient(360deg, #6d9eeb 50%, white 50%);       */
+    background: linear-gradient(360deg, #6d9eeb 50%, white 50%);      
 }
 #top {
     height: 70%;
-    /* height: 100vh; */
+    height: 100vh;
     position: relative;      
 }
 #intro {
     position: absolute;
     top: 30%;
-    /* left: 50%; */
+    left: 50%;
     padding: 50px;
     transform: translate(0%, -40%);
     color: #6d9eeb;
-}
-#image-holder{    
+} */
+/* #image-holder{    
     position: absolute;
     top: 50%;
     width: 50%;
     height:50%;
     transform: translate(-50%, -50%);
-    /* background-color: #6d9eeb; */
+    background-color: #6d9eeb;
     left: 50%;
     
-}
-#bottom {
+} */
+/* #bottom {
     color:#6d9eeb;
     padding-left: 10px;    
     
-}
+} */
 
-.about-desc {
-    font-weight: 50;
-    /* font-family: "Gotham" */
-}
 
-.about-chip {
-    /* change font size, weigth and circle size */
+/* for skills list */
+/* .about-chip {
     margin: 5px;
     color: white;
     background-color: #6d9eeb;
@@ -47,10 +89,10 @@
     width: 60px;
     line-height: 60px;
     text-align: center;
-    font-size: 11px;
+    font-size: 11px; */
     /* animation: float 2s ease infinite;
     animation-direction: alternate; */
-}
+/* } */
 
 /* @keyframes float{
     0% {
@@ -67,12 +109,12 @@
 } */
 
 
-.skills-container {
+/* .skills-container { */
     /* width: 300px; */
     /* margin-left: auto; */
     /* margin-right: auto; */
-}
+/* } */
 
-#about .animated {
-    display: inline-block;
-}
+/* #about .animated { */
+    /* display: inline-block; */
+/* } */
