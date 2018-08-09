@@ -87,7 +87,8 @@ class App extends Component {
                 </Row>                    
             </div>
             <hr/>
-            <div id = "experience">                 
+            <div id = "experience">      
+            <h4 className = "mobile-headers"> Experience</h4>                
                 <Row className = "experience-row">                                 
                     <Experience
                         expImage = "./img/iSchool.svg"

@@ -16,6 +16,18 @@ export default class MyNavBar extends React.Component  {
             var timerID = setInterval(function() {                
                 window.scrollBy(0, t);
                 if(window.pageYOffset >= threshold - 45) {
+                    // if(window.innerWidth < 1000) {
+                    //     let nav = document.getElementById("nav-mobile");
+                    //     nav.style.transform = "translateX(-100%)";
+                    //     let dragTarget = document.getElementsByClassName("drag-target");
+                    //     dragTarget[0].style.width = "";
+                    //     dragTarget[0].style.left = 0;
+                    //     dragTarget[0].style.right = "";
+                    //     let overlay = document.getElementById("sidenav-overlay");
+                    //     overlay.outerHTML = "";
+                    //     document.body.style.overflow = "";
+                    //     document.body.style.width = "";
+                    // }
                     clearInterval(timerID);                
                 }
                 t = t + 1;
@@ -26,6 +38,18 @@ export default class MyNavBar extends React.Component  {
             var timerID = setInterval(function() {        
                 window.scrollBy(0, -t);
                 if(window.pageYOffset <= threshold - 45) {
+                    // if(window.innerWidth < 1000) {
+                    //     let nav = document.getElementById("nav-mobile");
+                    //     nav.classList.add("velocity transform");
+                    //     let dragTarget = document.getElementsByClassName("drag-target");
+                    //     dragTarget[0].style.width = "";
+                    //     dragTarget[0].style.left = 0;
+                    //     dragTarget[0].style.right = "";
+                    //     let overlay = document.getElementById("sidenav-overlay");
+                    //     overlay.outerHTML = "";
+                    //     document.body.style.overflow = "";
+                    //     document.body.style.width = "";
+                    // }
                     clearInterval(timerID);
                 }
                 t = t + 1;

@@ -18,10 +18,21 @@
         float:none;
         width: 100%;
     }
+    .expTitle {
+        margin: 0;
+    }
+    .clearfix p {
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 900px){
 
     .expTitle {
         font-size: 16px !important;
-        margin: 0;
+
     }
     .chip {
         font-size: 9px;
@@ -31,10 +42,4 @@
         height: 20px;
         line-height: 20px;
     }
-
-    .clearfix p {
-        margin-top: 2px;
-        margin-bottom: 5px;
-    }
-
 }
