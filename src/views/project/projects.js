@@ -23,7 +23,7 @@ export default class Project extends React.Component  {
         
         
         return(                                                                         
-                <Col s={12} m={6} xl={4}>
+                <Col s={12} m={6} l = {6} xl={4}>
                 <ScrollAnimation animateIn = "fadeInUpBig" animateOnce = {true}> 
                     <Card header={<CardTitle reveal image= {projectImage} waves='light'/>}
                         title= {projectName}

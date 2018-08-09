@@ -1,5 +1,5 @@
 import React from 'react';
-import {Footer} from 'react-materialize';
+import {Footer, Row, Col} from 'react-materialize';
 import './footer.css';
 
 export default class MyFooter extends React.Component {
@@ -11,18 +11,23 @@ export default class MyFooter extends React.Component {
         var linkedin = 'https://www.linkedin.com/in/anirudh-subramanyam/'
         var mail = 'mailto:ask710@uw.edu'
         return(
-            <Footer copyrights = {<p>© Made by Anirudh Kumar Subramanyam</p>}
-                links={
-                    <ul>
-                    <li><a className = "icon" href={githubLink}> {React.createElement(FaGithub, null)}</a></li>
-                    <li><a className = "icon" href={linkedin}> {React.createElement(FaLinkedIn, null)}</a></li>
-                    <li><a className = "icon" href={mail}> {React.createElement(FaMail, null)}</a></li>                    
-                    </ul>
-                }
-                className='my-footer'
-                >                    
-                    <h6><blockquote>Hire Ani! He is the best</blockquote><p className = "quote">- Literally Everyone</p> </h6>
-                </Footer>
+            <footer className = "page-footer my-footer">
+                <div className="container">
+                    <Row>
+                        <Col s={8} l={8}>
+                            <h6><blockquote>Hire Ani! He is the best</blockquote><p className = "quote">- Literally Everyone</p> </h6>
+                        </Col>  
+                        <Col s={4} l={4}>
+                            <ul>
+                                <li><a className = "icon" href={githubLink}> {React.createElement(FaGithub, null)}</a></li>
+                                <li><a className = "icon" href={linkedin}> {React.createElement(FaLinkedIn, null)}</a></li>
+                                <li><a className = "icon" href={mail}> {React.createElement(FaMail, null)}</a></li>                    
+                            </ul>
+                        </Col>                      
+                    </Row>                    
+                    <p>© Made by Anirudh Kumar Subramanyam</p>
+                </div>
+            </footer>            
         );
     }
 }

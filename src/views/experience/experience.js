@@ -17,7 +17,7 @@ export default class Experience extends React.Component  {
         } = this.props;
 
 
-        return(                       
+        return(                   
             <div className = "clearfix">           
                 <ScrollAnimation animateIn = "slideInLeft" animateOnce = {true}>     
                     <img className = "job-image" src = {expImage}/>
@@ -27,8 +27,7 @@ export default class Experience extends React.Component  {
                     <Tags infoTags = {infoTags}/>
                     {expDesc}
                 </ScrollAnimation>
-            </div>               
-
+            </div>          
         );
     }
 

@@ -72,9 +72,17 @@ html {
 
 }
 
+.keyword {
+  border-bottom: white 1px solid;
+}
+
 hr {
   margin: 0 !important;
   border-color: #6c9eec36;
+}
+.mobile-headers {
+      
+  display: none;
 }
 /* [aos="fade"] {
   opacity: 0;
@@ -92,12 +100,21 @@ hr {
 } */
 
 @media (max-width: 900px){
+  #project, #experience {
+    padding: 30px;
+  }
   h1 {
     font-size: 30px !important;
   }
 
   p {
     font-size: 10px !important;
-  }  
+  } 
+
+  .mobile-headers {
+      font-size: 24px;
+      display: block;
+  }
+ 
 
 }

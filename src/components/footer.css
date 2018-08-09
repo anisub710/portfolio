@@ -2,9 +2,15 @@
     background-color: #6d9debe3 !important; 
     color: white !important;
     /* border-top: solid 0.5px gray; */
-    height: 200px !important;
-    padding-top: 40px;
+    height: 220px !important;
+    padding-top: 20px;
+    width: 100% !important;
 }
+.container {
+    width: 90% !important;
+    margin-left: 40px;
+}
+
 .footer-copyright {
     background-color: #468af8 !important; 
     color: white !important;
@@ -14,7 +20,11 @@
 
 footer .icon {
     color: white; 
-    font-size: 18pt;
+    font-size: 18pt;    
+}
+
+footer li {
+    text-align: right;
 }
 
 footer .icon:hover {    
@@ -40,6 +50,13 @@ blockquote {
 
     .my-footer li {
         height: 20px;
+    }
+
+    .my-footer {
+        height: 150px !important;
+    }
+    .container {
+        margin-left: 20px !important;
     }
 
     blockquote {

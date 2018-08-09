@@ -30,7 +30,7 @@
     border-bottom: #6c9eec24 1px solid;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .card-content, .card-reveal{
         padding: 5px !important;
     }
