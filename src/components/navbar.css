@@ -87,6 +87,9 @@ nav {
     -moz-transition: transform 1s ease-out;
     -o-transition: transform 1s ease-out;
     transition: transform 1s ease-out;  
+    -webkit-transition: visibility 1s, opacity 1s ease-out;
+    -moz-transition: visibility 1s, opacity 1s ease-out;
+    -o-transition: visibility 1s, opacity 1s ease-out;
     transition: visibility 1s, opacity 1s ease-out;
 }
 
@@ -108,13 +111,33 @@ nav {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
     .menu{
         text-align: center;
     }
+    .btn-floating.btn-large {
+        width: 35px;
+        height: 35px;
+    }
+    .btn-floating.btn-large i {
+        line-height: 35px;
+    }
+
+    .navbar-fixed {
+        height: 45px;
+    }
+
 }
 
 .hidden {
     visibility: hidden;   
     opacity: 0; 
+}
+
+nav .button-collapse {
+    color: #6d9eeb !important;
+}
+
+#sidenav-overlay {
+    all: initial;    
 }

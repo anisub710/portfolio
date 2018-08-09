@@ -28,3 +28,22 @@ blockquote {
 .quote {
     padding-left: 10.5rem;
 }
+
+@media (max-width: 900px){
+    .my-footer .row, .my-footer ul {
+        margin-bottom: 0px;        
+    }
+
+    .my-footer .icon {
+        font-size: 12px !important;
+    }
+
+    .my-footer li {
+        height: 20px;
+    }
+
+    blockquote {
+        font-size: 10px;
+    }
+
+}

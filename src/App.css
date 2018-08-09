@@ -13,13 +13,32 @@ html {
       transform: scale(2);
   }    
 }
+
+.loader:empty {
+  content:url("./img/highlighted.svg");
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);  
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);  
+  -o-transform: translate(-50%, -50%);  
+  transform: translate(-50%, -50%);
+  animation: loading 1.2s infinite ease;
+  animation-direction: alternate;
+}
+
 .loader:empty::after {
   content:url("./img/highlighted.svg");
   height: 50px;
   width: 50px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);  
+  -o-transform: translate(-50%, -50%);  
   transform: translate(-50%, -50%);
   animation: loading 1.2s infinite ease;
   animation-direction: alternate;
@@ -66,3 +85,13 @@ hr {
   animation-duration: 2s;
 } */
 
+@media (max-width: 900px){
+  h1 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 10px !important;
+  }  
+
+}

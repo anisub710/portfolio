@@ -92,7 +92,7 @@ class App extends Component {
                         expImage = "./img/iSchool.svg"
                         expTitle =  "University of Washington Information School"  
                         infoTags = {['Teaching Assistant']} 
-                        expDesc = "Captivating description of this experience"                    
+                        expDesc = {<p>Captivating description of this experience</p>}
                     /> 
                 </Row>
                 <Row className = "experience-row">                                 
@@ -100,7 +100,7 @@ class App extends Component {
                         expImage = "./img/Indegene.svg"
                         expTitle =  "Indegene"  
                         infoTags = {['Internship']} 
-                        expDesc = "Captivating description of this experience"                    
+                        expDesc = {<p>Captivating description of this experience</p>}
                     />   
                 </Row>
                 <Row className = "experience-row">  
@@ -108,7 +108,7 @@ class App extends Component {
                         expImage = "./img/CloudCherry.svg"
                         expTitle = "CloudCherry"
                         infoTags = {['Internship']} 
-                        expDesc = "Captivating description of this experience"                                        
+                        expDesc = {<p>Captivating description of this experience</p>}
                     />  
                 </Row>
             </div>

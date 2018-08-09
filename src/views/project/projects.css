@@ -7,7 +7,7 @@
 
 .icon {
     color: #6d9eeb; 
-    font-size: 22pt;
+    font-size: 30px;
 }
 
 .icon:hover {    
@@ -28,4 +28,22 @@
     font-size: 22px;
     color: #6c9eec !important;
     border-bottom: #6c9eec24 1px solid;
+}
+
+@media (max-width: 900px){
+    .card-content, .card-reveal{
+        padding: 5px !important;
+    }
+    .card-content i {
+        font-size: 16px !important;
+    }
+   .card .card-title {
+       font-size: 16px !important;
+   }
+   .card-content .chip {
+       display:none;
+   }
+   .icon {
+       font-size: 20px !important;
+   }
 }

@@ -25,7 +25,6 @@ export default class Experience extends React.Component  {
                 <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>     
                     <h5 className = "expTitle"> {expTitle} </h5>                
                     <Tags infoTags = {infoTags}/>
-                    <br/>
                     {expDesc}
                 </ScrollAnimation>
             </div>               

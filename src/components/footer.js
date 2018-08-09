@@ -11,7 +11,7 @@ export default class MyFooter extends React.Component {
         var linkedin = 'https://www.linkedin.com/in/anirudh-subramanyam/'
         var mail = 'mailto:ask710@uw.edu'
         return(
-            <Footer copyrights = "© Made by Anirudh Kumar Subramanyam"
+            <Footer copyrights = {<p>© Made by Anirudh Kumar Subramanyam</p>}
                 links={
                     <ul>
                     <li><a className = "icon" href={githubLink}> {React.createElement(FaGithub, null)}</a></li>
