@@ -135,6 +135,8 @@ nav {
 }
 
 nav .button-collapse {
+    line-height: 45px;
+    height: 45px;
     color: #6d9eeb !important;
 }
 
