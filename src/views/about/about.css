@@ -10,6 +10,9 @@
     position: absolute;    
     top: 20%;
     left: 50%; 
+    -webkit-transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%);  
+    -o-transform: translate(-50%, -20%); 
     transform: translate(-50%, -20%);
 }
 
@@ -41,10 +44,16 @@
 
 @keyframes direct {
     0% {
+        -webkit-transform: translatey(-50px);
+        -ms-transform: translatey(-50px);
+        -o-transform: translatey(-50px);
         transform: translatey(-50px);
     }
   
-    100% {        
+    100% {      
+        -webkit-transform: translatey(-40px);
+        -ms-transform: translatey(-40px);
+        -o-transform: translatey(-40px);
         transform: translatey(-40px);
     }    
   }
