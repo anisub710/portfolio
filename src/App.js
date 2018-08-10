@@ -7,6 +7,7 @@ import Experience from "./views/experience/experience";
 import About from "./views/about/about";
 import MyFooter from "./components/footer";
 import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class App extends Component {
   constructor(props) {
@@ -39,8 +40,10 @@ class App extends Component {
                 />  
                 </Row>
             </div>            
-            <div id = "project">                  
-            <h4 className = "mobile-headers"> Projects</h4>                            
+            <div id = "project">        
+            <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>
+                <h4 className = "mobile-headers">Projects</h4>            
+            </ScrollAnimation>                
                 <Row className = "projects-row">                                     
                     <Project 
                         projectName = "344 Project"
@@ -88,7 +91,9 @@ class App extends Component {
             </div>
             <hr/>
             <div id = "experience">      
-            <h4 className = "mobile-headers"> Experience</h4>                
+            <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>
+                <h4 className = "mobile-headers">Experience</h4>            
+            </ScrollAnimation> 
                 <Row className = "experience-row">                                 
                     <Experience
                         expImage = "./img/iSchool.svg"
