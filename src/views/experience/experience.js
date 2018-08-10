@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import './experience.css';
+import {Modal, Button} from 'react-materialize';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Tags from '../../components/tags'
 
@@ -13,6 +14,7 @@ export default class Experience extends React.Component  {
             expImage,
             expTitle,
             infoTags,
+            shortDesc,
             expDesc            
         } = this.props;
 
@@ -25,7 +27,13 @@ export default class Experience extends React.Component  {
                 <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>     
                     <h5 className = "expTitle"> {expTitle} </h5>                
                     <Tags infoTags = {infoTags}/>
+                    {shortDesc}
+                    <Modal
+                    fixedFooter
+                    header= {expTitle}
+                    trigger={<Button className = "modal-btn"><p>Learn More</p></Button>}>
                     {expDesc}
+                    </Modal>
                 </ScrollAnimation>
             </div>          
         );

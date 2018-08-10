@@ -99,6 +99,7 @@ class App extends Component {
                         expImage = "./img/iSchool.svg"
                         expTitle =  "University of Washington Information School"  
                         infoTags = {['Teaching Assistant']} 
+                        shortDesc = {<p> Summary description for the experience</p>}
                         expDesc = {<p>Captivating description of this experience</p>}
                     /> 
                 </Row>
@@ -107,6 +108,7 @@ class App extends Component {
                         expImage = "./img/Indegene.svg"
                         expTitle =  "Indegene"  
                         infoTags = {['Internship']} 
+                        shortDesc = {<p> Summary description for the experience</p>}
                         expDesc = {<p>Captivating description of this experience</p>}
                     />   
                 </Row>
@@ -115,6 +117,7 @@ class App extends Component {
                         expImage = "./img/CloudCherry.svg"
                         expTitle = "CloudCherry"
                         infoTags = {['Internship']} 
+                        shortDesc = {<p> Summary description for the experience</p>}
                         expDesc = {<p>Captivating description of this experience</p>}
                     />  
                 </Row>
