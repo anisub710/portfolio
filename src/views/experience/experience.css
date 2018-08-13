@@ -26,11 +26,12 @@
     padding-right: 5px;
     letter-spacing: 0px;
 }
-.modal-btn:hover {
+.modal-btn:hover, .modal-btn:focus {
     color: rgb(0, 98, 255);   
     background-color: transparent;
     box-shadow: none;
 }
+
 
 @media (max-width: 700px){
     .job-image {

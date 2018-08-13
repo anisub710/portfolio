@@ -21,20 +21,18 @@ export default class Experience extends React.Component  {
 
         return(                   
             <div className = "clearfix">           
-                <ScrollAnimation animateIn = "slideInLeft" animateOnce = {true}>     
-                    <img className = "job-image" src = {expImage}/>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>     
-                    <h5 className = "expTitle"> {expTitle} </h5>                
-                    <Tags infoTags = {infoTags}/>
-                    {shortDesc}
-                    <Modal
-                    fixedFooter
-                    header= {expTitle}
-                    trigger={<Button className = "modal-btn"><p>Learn More</p></Button>}>
-                    {expDesc}
-                    </Modal>
-                </ScrollAnimation>
+            <ScrollAnimation animateIn = "fadeIn" animateOnce = {true}>     
+                <img className = "job-image" src = {expImage}/>
+                <h5 className = "expTitle"> {expTitle} </h5>                
+                <Tags infoTags = {infoTags}/>
+                {shortDesc}
+                <Modal
+                fixedFooter
+                header= {expTitle}
+                trigger={<Button className = "modal-btn"><p>Learn More</p></Button>}>
+                {expDesc}
+                </Modal>
+            </ScrollAnimation>
             </div>          
         );
     }
