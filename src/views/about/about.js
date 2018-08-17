@@ -32,13 +32,15 @@ export default class About extends React.Component  {
         } = this.props;
 
         function SkillsList({skills}) {
-            for (let i = 0; i < skills.length; i++) {
-                skills[i] = 
-                <ScrollAnimation animateIn = {(i % 2 == 0) ? "bounceInLeft":"bounceInRight"} animateOnce = {true}>
-                    <p className = "about-chip">{skills[i]}</p>
-                </ScrollAnimation>;
+            let result = skills[0];            
+            for (let i = 1; i < skills.length; i++) {
+                // skills[i] = 
+                // <ScrollAnimation animateIn = {(i % 2 == 0) ? "bounceInLeft":"bounceInRight"} animateOnce = {true}>
+                //     <p className = "about-chip">{skills[i]}</p>
+                // </ScrollAnimation>;
+                result += ", " + skills[i];
             }
-            return skills
+            return result;
         }
 
         return( 
@@ -47,11 +49,10 @@ export default class About extends React.Component  {
                     {/* <img alt = "profile" id = "image-holder" src = {aboutImage}/> */}
                     <div id = "content">                        
                         <h1 id = "greetings"> Hey! </h1> 
-                        <p id = "about-desc"> {aboutDesc}</p>                        
-                    </div>
-                    <div>   
+                        <p className = "about-desc"> {aboutDesc}</p> 
+                        <p className = "about-desc"><strong className = "skills-header">Languages and Technologies I have worked with:</strong> <SkillsList skills = {skills}/></p>                        
+                    </div> 
                         <a className = "arrow-down" onClick = {() => {this.timer("project")}} href="#Project"> {React.createElement(down, null)} </a>                 
-                    </div>
                 </div>
             </ScrollAnimation>
         );

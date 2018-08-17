@@ -16,7 +16,7 @@
     transform: translate(-50%, -20%);
 }
 
-#about-desc {
+.about-desc {
     font-size: 18px;
 }
 
@@ -30,7 +30,7 @@
     position: absolute;    
     color: white;
     font-size: 50pt;    
-    top: 90%;
+    top: 93%;
     left: 0;
     right: 0;
     text-align: center;
@@ -58,6 +58,11 @@
     }    
   }
 
+  .skills-header {
+    font-size: 18px;
+    border-bottom: white 1px solid;
+
+  }
 
 
 /* #container {        
@@ -96,19 +101,19 @@
 
 
 /* for skills list */
-/* .about-chip {
+.about-chip {
     margin: 5px;
-    color: white;
-    background-color: #6d9eeb;
+    color: #6d9eeb;
+    background-color: white;
     border-radius: 50%;
     height: 60px;
     width: 60px;
     line-height: 60px;
     text-align: center;
-    font-size: 11px; */
+    font-size: 11px; 
     /* animation: float 2s ease infinite;
     animation-direction: alternate; */
-/* } */
+}
 
 /* @keyframes float{
     0% {
@@ -131,6 +136,28 @@
     /* margin-right: auto; */
 /* } */
 
-/* #about .animated { */
-    /* display: inline-block; */
-/* } */
+#about .animated { 
+    display: inline-block;
+}
+
+@media (max-width: 900px){
+
+    .skills-header{
+        font-size: 12px !important;
+    }
+    .about-chip {
+        margin: 1px;
+        border-radius: 50%;
+        height: 42px;
+        width: 42px;
+        line-height: 42px;
+        text-align: center;
+        font-size: 9px !important; 
+        /* animation: float 2s ease infinite;
+        animation-direction: alternate; */
+    }
+
+    .arrow-down{
+        font-size: 30px;
+    }
+}

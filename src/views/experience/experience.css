@@ -20,16 +20,21 @@
 
 .modal-btn {
     color: #6d9eeb;
-    background-color: transparent;
-    box-shadow: none;
     padding-left: 5px;
     padding-right: 5px;
-    letter-spacing: 0px;
 }
+
+.modal-btn:hover {
+    cursor: pointer;
+}
+
 .modal-btn:hover, .modal-btn:focus {
     color: rgb(0, 98, 255);   
-    background-color: transparent;
-    box-shadow: none;
+}
+
+.time {
+    font-size: 12px !important;
+    color: gray;
 }
 
 
@@ -61,5 +66,8 @@
         border-radius: 10px;
         height: 20px;
         line-height: 20px;
+    }
+    .time {
+        font-size: 10px !important;
     }
 }

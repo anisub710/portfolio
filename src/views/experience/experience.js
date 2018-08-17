@@ -13,6 +13,7 @@ export default class Experience extends React.Component  {
         const {
             expImage,
             expTitle,
+            time,
             infoTags,
             shortDesc,
             expDesc            
@@ -25,11 +26,12 @@ export default class Experience extends React.Component  {
                 <img className = "job-image" src = {expImage}/>
                 <h5 className = "expTitle"> {expTitle} </h5>                
                 <Tags infoTags = {infoTags}/>
+                <p className = "time">{time}</p>
                 {shortDesc}
                 <Modal
                 fixedFooter
                 header= {expTitle}
-                trigger={<Button className = "modal-btn"><p>Learn More</p></Button>}>
+                trigger={<p className = "modal-btn">LEARN MORE</p>}>
                 {expDesc}
                 </Modal>
             </ScrollAnimation>
