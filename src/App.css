@@ -80,9 +80,13 @@ hr {
   margin: 0 !important;
   border-color: #6c9eec36;
 }
-.mobile-headers {
-      
+.mobile-headers {   
   display: none;
+}
+
+.sub-heading {
+  color: #6d9eeb;
+  border-bottom: #6d9eeb 1px solid;
 }
 /* [aos="fade"] {
   opacity: 0;

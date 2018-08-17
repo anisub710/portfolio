@@ -167,7 +167,12 @@ class App extends Component {
                         time = "SEPTEMBER 2017 - CURRENT" 
                         infoTags = {['Teaching Assistant', 'Android', 'R']} 
                         shortDesc = {<p>Teaching Assistant for INFO 448 (Mobile Development: Android) and INFO 201 (Techinical Foundations in R)</p>}
-                        expDesc = {<p>Captivating description of this experience</p>}
+                        expDesc = {<div>
+                            <p><strong className = "sub-heading">INFO 448 - Android Development:</strong> Plan and conduct lab sections instructing students in Android development.
+                         Design and grade homework and lab assignments. (September 2018 - Current)</p>
+                         <p><strong className = "sub-heading">INFO 201 - Technical Foundations:</strong> Planned and conducted lab sections instructing students in R and Github.  
+                         Designed and graded homework and lab assignments. Built automated test scripts to grade assignments. (September 2017 - June 2018)</p>
+                         </div>}
                     /> 
                 </Row>
                 <Row className = "experience-row">                                 
