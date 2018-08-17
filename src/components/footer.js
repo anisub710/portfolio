@@ -25,7 +25,7 @@ export default class MyFooter extends React.Component {
                             </ul>
                         </Col>                      
                     </Row>                    
-                    <p>© Made by Anirudh Kumar Subramanyam</p>
+                    <p><a className = "repo" href = "https://github.com/ask710/portfolio/tree/master">© Made by Anirudh Kumar Subramanyam</a></p>
                 </div>
             </footer>            
         );

@@ -39,6 +39,11 @@ blockquote {
     padding-left: 10.5rem;
 }
 
+.repo {
+    color: white;
+    text-decoration: underline;
+}
+
 @media (max-width: 900px){
     .my-footer .row, .my-footer ul {
         margin-bottom: 0px;        
