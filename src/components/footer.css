@@ -48,4 +48,8 @@
         height: 50px !important;
     }
 
+    .my-footer .row {
+        min-width: 100vh !important;
+    }
+
 }
