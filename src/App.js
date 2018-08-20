@@ -31,11 +31,11 @@ class App extends Component {
                 <Row>                                           
                 <About
                     aboutImage = "./img/profile_temp.svg"
-                    aboutDesc = {<p>My name is <strong className = "keyword"> Anirudh Subramanyam (Ani)</strong>, and I'm a <strong className = "keyword">Software Developer</strong> currently 
-                    a senior pursuing <strong className = "keyword">Informatics</strong> at the <strong className = "keyword">University of Washington</strong>. 
-                     I aim to increasingly integrate accessible technology into society, especially in <strong className = "keyword">health care</strong> and <strong className = "keyword">education</strong>. I believe 
+                    aboutDesc = {<p>My name is <strong> Anirudh Subramanyam (Ani)</strong>, and I'm a <strong>Software Developer</strong> currently 
+                    a senior pursuing <strong>Informatics</strong> at the <strong>University of Washington</strong>. 
+                     I aim to increasingly integrate accessible technology into society, especially in <strong>health care</strong> and <strong>education</strong>. I believe 
                      that my exposure to various cultures having lived and studied in cities such as Mumbai, Bangalore, Singapore, London and Seattle, 
-                     and my involvment in the community provides me a strong perspective to build <strong className = "keyword">user-centered technology.</strong></p>} 
+                     and my involvment in the community provides me a strong perspective to build <strong>user-centered technology.</strong></p>} 
                     skills = {["Go", "R", "Javascript", "Java", "Node.js", "React", "SQL", "Android", "MongoDB", "MySQL", "iOS", "Digital Ocean", "Terraform"]}
                 />                  
                 </Row>

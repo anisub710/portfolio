@@ -1,42 +1,33 @@
 .my-footer {
+    position: absolute;
     background-color: #6d9debe3 !important; 
     color: white !important;
     /* border-top: solid 0.5px gray; */
-    height: 220px !important;
-    padding-top: 20px;
+    height: 50px !important;
     width: 100% !important;
+    line-height: 50px;
 }
 .container {
     width: 80% !important;
     margin-left: 40px;
 }
 
-.footer-copyright {
-    background-color: #468af8 !important; 
-    color: white !important;
-    font-size: 11px;
-    padding: 0px !important;
+.my-footer .row {
+    margin-bottom: 0;
 }
 
-footer .icon {
+.icons-col {
+    height: 50px !important;
+}
+
+.my-footer .icon {
     color: white; 
-    font-size: 18pt;    
+    font-size: 20px;  
+    padding-left: 4px;
 }
 
-footer li {
-    text-align: right;
-}
-
-footer .icon:hover {    
+.my-footer .icon:hover {    
     color: rgba(255, 255, 255, 0.575);
-}
-
-blockquote {
-    border-left: 5px solid white;
-}
-
-.quote {
-    padding-left: 10.5rem;
 }
 
 .repo {
@@ -44,29 +35,17 @@ blockquote {
     text-decoration: underline;
 }
 
-@media (max-width: 900px){
-    .my-footer .row, .my-footer ul {
-        margin-bottom: 0px;        
-    }
+.my-footer p {
+    margin: 0px;
+}
 
+@media (max-width: 900px){
     .my-footer .icon {
         font-size: 12px !important;
     }
 
-    .my-footer li {
-        height: 20px;
-    }
-
     .my-footer {
-        height: 150px !important;
-    }
-    .container {
-        width: 90% !important;
-        margin-left: 20px !important;
-    }
-
-    blockquote {
-        font-size: 12px;
+        height: 50px !important;
     }
 
 }
