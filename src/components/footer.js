@@ -15,11 +15,11 @@ export default class MyFooter extends React.Component {
         return(
             <div className = "footer copyright my-footer">
                 <Row>
-                    <Col s={3} l={3}/>
-                    <Col s={4} l={4}>
+                    <Col s={0} l={3}/>
+                    <Col s={9} l={4}>
                         <p><a className = "repo" href = "https://github.com/ask710/portfolio/tree/master">© Made by Anirudh Kumar Subramanyam</a></p>
                     </Col>
-                    <Col s={5} l={5} className = "icons-col">
+                    <Col s={3} l={5} className = "icons-col">
                         <a className = "icon" href={githubLink}> {React.createElement(FaGithub, null)}</a>
                         <a className = "icon" href={linkedin}> {React.createElement(FaLinkedIn, null)}</a>
                         <a className = "icon" href={mail}> {React.createElement(FaMail, null)}</a>

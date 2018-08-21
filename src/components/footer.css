@@ -1,15 +1,10 @@
 .my-footer {
-    position: absolute;
     background-color: #6d9debe3 !important; 
     color: white !important;
     /* border-top: solid 0.5px gray; */
     height: 50px !important;
-    width: 100% !important;
+    /* width: 100% !important; */
     line-height: 50px;
-}
-.container {
-    width: 80% !important;
-    margin-left: 40px;
 }
 
 .my-footer .row {
@@ -37,6 +32,7 @@
 
 .my-footer p {
     margin: 0px;
+    /* max-height: 50px; */
 }
 
 @media (max-width: 900px){
@@ -44,12 +40,8 @@
         font-size: 12px !important;
     }
 
-    .my-footer {
-        height: 50px !important;
-    }
-
-    .my-footer .row {
-        min-width: 100vh !important;
+    .my-footer .col {
+        padding: 0px;
     }
 
 }
