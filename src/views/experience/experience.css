@@ -70,4 +70,7 @@
     .time {
         font-size: 10px !important;
     }
+    .modal-btn {
+        padding: 0px;
+    }
 }
