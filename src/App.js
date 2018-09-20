@@ -46,8 +46,8 @@ class App extends Component {
             </ScrollAnimation>                
                 <Row className = "projects-row">                                     
                     <Project 
-                        projectName = "344 Project"
-                        projectImage = "./img/344 Unfinished.svg"
+                        projectName = "Slack-esque"
+                        projectImage = "./img/Slack-esque.svg"
                         projectDesc = {<p>Built a web server in Go and a microservice in Node.js with the following features and capabilites:<br/>
                             <ul>
                                 <li>Page Summary: Shows preview of a URL by extracting its meta tags</li>
@@ -67,7 +67,7 @@ class App extends Component {
 
                             </ul>
                         </p>}
-                        githubLink = ""
+                        githubLink = "https://github.com/ask710/slack-esque"
                         infoTags = {["Go", "Node.js", "Digital Ocean", "MySQL", "Redis", "RabbitMQ"]}
                     />
                     <Project
@@ -118,6 +118,59 @@ class App extends Component {
                         githubLink = "https://github.com/ask710/Geopaint"
                         infoTags = {['Java', 'Android']}
                     />
+
+                    <Project
+                        projectName = "Maze Solver"
+                        projectImage = "./img/Maze.svg"
+                        projectDesc = {<p>Pair programming project that implements:  
+                           
+                            <ul>
+                                <li>An ArrayDisjointSet class using array-based representation</li>
+                                <li>A Graph's constructor</li>
+                                <li>A findMinimumSpanningTree method using Kruskal's algorithm</li>
+                                <li>A KruskalMazeCarver method which generated random mazes by removing random walls while ensuring the maze is still solvable </li>
+                                <li>A findShortestPathBetween method that used Dijkstra's algorithm to solve for the shortest path to solve a given maze</li>                                
+                            </ul>
+                        </p>}                              
+                        githubLink = "https://github.com/aaronluannguyen/mazesolver"
+                        infoTags = {['Java', 'Data Structures and Algorithms']}
+                    />  
+
+                    <Project
+                        projectName = "Search Engine"
+                        projectImage = "./img/Search.svg"
+                        projectDesc = {<p>Pair programming project that implements:   
+                            <ul>
+                                <li>jUnit tests for ArrayHeap and Searcher.topKSort() classes/methods</li>
+                                <li>An ArrayHeap class</li>
+                                <li>The Searcher.topKSort() method that returns the top k elements from a list of n elements</li>
+                                <li>Search engine would perform searches via a downloaded file of websites and their contents</li>
+                                <li>Code for a Term Frequency and Inverse Document Frequency ranking class that measures how important a given word is to a particular document</li>
+                                <li>A relevance computer that determined how relevant an algorithm is to a query</li>
+                                <li>A web graph that represented the internet where each webpage was a vertex and each link was an edge. This graph was represented through using an adjacency list</li>
+                                <li>A PageRank method which precomputes the page rank for every webpage in the graph</li>
+                            </ul>
+                        </p>}                              
+                        githubLink = "https://github.com/aaronluannguyen/searchengine"
+                        infoTags = {['Java', 'Data Structures and Algorithms']}
+                    />  
+
+                    <Project
+                        projectName = "Calculator"
+                        projectImage = "./img/Calculator.svg"
+                        projectDesc = {<p>Pair programming project that implements:   
+                            <ul>
+                                <li>A Double LinkedList</li>
+                                <li> An Array Dictionary </li>
+                                <li>A Chained Hash Dictionary</li>
+                                <li>A Chained Hash Set</li>
+                                <li>An Abstract Syntax Tree for mathematical expressions</li>
+                                <li>Plot handler for the expressions</li>
+                            </ul>
+                        </p>}                              
+                        githubLink = "https://github.com/aaronluannguyen/calculator"
+                        infoTags = {['Java', 'Data Structures and Algorithms']}
+                    />                       
                     <Project
                         projectName = "Waste Management Database"
                         projectImage = "./img/database.svg"
@@ -181,7 +234,10 @@ class App extends Component {
                         expTitle =  "Indegene"  
                         time = "JUNE 2018 - SEPTEMBER 2018"
                         infoTags = {['Internship', 'Go', 'MongoDB']} 
-                        shortDesc = {<p> Developed an API backed by machine learning models to predict campaign performance</p>}
+                        shortDesc = {<p> Helped the company transition from intuition based campaign journey to a data driven one
+                            by incorporating machine learning to predict campaign performance data and also to provide guidance 
+                            on optimal allocation of resources to have the best chance of achieving a target performance. Developed 
+                            an API backed by machine learning models to predict campaign performance</p>}
                         expDesc = {<p>Captivating description of this experience</p>}
                     />   
                 </Row>
@@ -191,8 +247,8 @@ class App extends Component {
                         expTitle = "CloudCherry"
                         time = "JULY 2016 - AUGUST 2016"
                         infoTags = {['Internship', 'Java']} 
-                        shortDesc = {<p>Helped determine effsectivenes of CloudCherry's sentiment analytics tool.</p>}
-                        expDesc = {<p>Captivating description of this experience</p>}
+                        shortDesc = {<p>Helped determine effectivenes of CloudCherry's sentiment analytics tool.</p>}
+                        expDesc = {<p>This was the first time I was introduced to the concept of sentiment analysis. </p>}
                     />  
                 </Row>
             </div>
