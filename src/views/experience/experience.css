@@ -37,6 +37,9 @@
     color: gray;
 }
 
+.modal ul:not(.browser-default) li {
+    list-style-type: disc;
+}
 
 @media (max-width: 700px){
     .job-image {
@@ -72,5 +75,11 @@
     }
     .modal-btn {
         padding: 0px;
+    }
+}
+
+@media (min-width: 1650px){
+    .job-image{
+        width: 33%;
     }
 }

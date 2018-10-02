@@ -36,8 +36,7 @@ class App extends Component {
                      I aim to increasingly integrate accessible technology into society, especially in <strong>health care</strong> and <strong>education</strong>. I believe 
                      that my exposure to various cultures having lived and studied in cities such as Mumbai, Bangalore, Singapore, London and Seattle, 
                      and my involvment in the community provides me a strong perspective to build <strong>user-centered technology.</strong></p>} 
-                    skills = {["Go", "R", "Javascript", "Java", "Node.js", "React", "SQL", "Android", "MongoDB", "MySQL", "iOS", "Digital Ocean", "Terraform"]}
-                />                  
+                    skills = {["Go", "R", "Javascript", "Java", "Node.js", "React.js", "SQL", "Android", "MongoDB", "MySQL", "iOS", "PHP", "Firebase", "Digital Ocean", "Terraform"]}/>
                 </Row>
             </div>            
             <div id = "project">        
@@ -218,10 +217,10 @@ class App extends Component {
                         expImage = "./img/iSchool.svg"
                         expTitle =  "University of Washington Information School" 
                         time = "SEPTEMBER 2017 - CURRENT" 
-                        infoTags = {['Teaching Assistant', 'Android', 'R']} 
+                        infoTags = {['Teaching Assistant', 'Android', 'Kotlin', 'R']} 
                         shortDesc = {<p>Teaching Assistant for INFO 448 (Mobile Development: Android) and INFO 201 (Techinical Foundations in R)</p>}
                         expDesc = {<div>
-                            <p><strong className = "sub-heading">INFO 448 - Android Development:</strong> Plan and conduct lab sections instructing students in Android development.
+                            <p><strong className = "sub-heading">INFO 448 - Android Development:</strong> Plan and conduct lab sections instructing students in Android development using Kotlin.
                          Design and grade homework and lab assignments. (September 2018 - Current)</p>
                          <p><strong className = "sub-heading">INFO 201 - Technical Foundations:</strong> Planned and conducted lab sections instructing students in R and Github.  
                          Designed and graded homework and lab assignments. Built automated test scripts to grade assignments. (September 2017 - June 2018)</p>
@@ -233,12 +232,30 @@ class App extends Component {
                         expImage = "./img/Indegene.svg"
                         expTitle =  "Indegene"  
                         time = "JUNE 2018 - SEPTEMBER 2018"
-                        infoTags = {['Internship', 'Go', 'MongoDB']} 
+                        infoTags = {['Intern', 'Go', 'MongoDB']} 
                         shortDesc = {<p> Helped the company transition from intuition based campaign journey to a data driven one
                             by incorporating machine learning to predict campaign performance data and also to provide guidance 
                             on optimal allocation of resources to have the best chance of achieving a target performance. Developed 
                             an API backed by machine learning models to predict campaign performance</p>}
-                        expDesc = {<p>Captivating description of this experience</p>}
+                        expDesc = {<div><p>I initiated the company’s transition of campaign journey analysis from an intuition based method 
+                            to a data driven one. This transition:
+                                <ul>
+                                    <li>Makes performance predictable and makes decisions more reliable since it is backed by actual data.</li>                                
+                                    <li>Helps evaluate whether goals are achievable based on factors such as content, audience, budget 
+                                        and designs.</li>
+                                    <li>Allows for dynamic evaluation of the resources allocated based on the performance, such as 
+                                        change their budget or design to improve chances of achieving their targets.</li>
+                                </ul>
+                            This is done by using machine learning models to predict performance, and also to provide guidance on optimal allocation of resources 
+                            to have the best chance of achieving a target performance.</p>
+                            <p>I first created a prototype for interface and a plan for the backend server 
+                            that allows to add JSON files with data supported by a backend Go server, adds the data to the database and uses the data periodically to update models.
+                            </p>
+                            <p>After which, I created a development build of the Go server with a NoSQL database (MongoDB) to store data with varying structures. Simultaneously, I had 
+                            to identify Basic variables (parameters that are provided/given), Guided variables (parameters that can be varied based on other factors in order to get optimum performance) 
+                            from the provided sample data. Eventually I identified models using basic and guided variables to predict performance, and models using basic and performance variables to 
+                            predict guided variables.</p>
+                            </div>}
                     />   
                 </Row>
                 <Row className = "experience-row">  
@@ -246,9 +263,17 @@ class App extends Component {
                         expImage = "./img/CloudCherry.svg"
                         expTitle = "CloudCherry"
                         time = "JULY 2016 - AUGUST 2016"
-                        infoTags = {['Internship', 'Java']} 
+                        infoTags = {['Intern', 'Java']} 
                         shortDesc = {<p>Helped determine effectivenes of CloudCherry's sentiment analytics tool.</p>}
-                        expDesc = {<p>This was the first time I was introduced to the concept of sentiment analysis. </p>}
+                        expDesc = {<p>This internship was my first time I was introduced to sentiment analysis. During the internship I:
+                                <ul>
+                                    <li>Spent time to familiarize myself with the concept of sentiment analysis and different applications of sentiment analysis. </li>
+                                    <li>Familiarized myself with CloudCherry’s API. Then I was assigned to build a program to compare the accuracy of CloudCherry’s 
+                                        sentiment analysis with other major sentiment analysis products such as Watson by IBM. </li>
+                                    <li>Provided insights on where deduced sentiments differed, and hence what CloudCherry did better, and what CloudCherry could do 
+                                        better to improve, using the results from the comparison program I built</li>
+                                </ul>
+                    </p>}
                     />  
                 </Row>
             </div>
