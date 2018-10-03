@@ -70,7 +70,7 @@ class App extends Component {
                         infoTags = {["Go", "Node.js", "Digital Ocean", "MySQL", "Redis", "RabbitMQ"]}
                     />
                     <Project
-                        projectName = "Indiceision"
+                        projectName = "In'dice'ision"
                         projectImage = "./img/InDiceision.svg"
                         projectDesc = {<p>Indiceision is for the indecisive. The purpose is to facilitate human interaction by removing the analysis paralysis of choosing an activity. 
                         Indiceision will help users decide on food locations based on certain preferences like type, price, distance and location. This was a group project, in which I 
@@ -90,20 +90,22 @@ class App extends Component {
                         </p>}
                         githubLink = "https://github.com/heyjasonxu/Indiceision"
                         infoTags = {['Java', 'Android']}
-                    />           
+                    /> 
                     <Project
-                        projectName = "Yama"
-                        projectImage = "./img/Yama.svg"
-                        projectDesc = {<p>Yama is a simple Android messaging application that allows to:     
+                        projectName = "News"
+                        projectImage = "./img/News.svg"
+                        projectDesc = {<p>News is an Android application that allows to:
                             <ul>
-                                <li>Pick a contact and send a text message to that contact</li>
-                                <li>Get notifications for received messages</li>
-                                <li>Have customizable auto-reply messages once a message is received.</li>
+                                <li>View a list of recent news stories so I can know what is going on in the world.</li>
+                                <li>Search for recent news about a particular topic.</li>
+                                <li>Easily preview stories so I can determine if they are relevant to my interests.</li>
+                                <li>Share news stories with others so they too can be informed.</li>
                             </ul>
-                            </p>}                                        
-                        githubLink = "https://github.com/ask710/MessagingApp"
+                        </p>}                              
+                        githubLink = "https://github.com/ask710/Geopaint"
                         infoTags = {['Java', 'Android']}
-                    />     
+                    />          
+                    
                     <Project
                         projectName = "Geopaint"
                         projectImage = "./img/Geopaint.svg"
@@ -117,7 +119,19 @@ class App extends Component {
                         githubLink = "https://github.com/ask710/Geopaint"
                         infoTags = {['Java', 'Android']}
                     />
-
+                    <Project
+                        projectName = "Yama"
+                        projectImage = "./img/Yama.svg"
+                        projectDesc = {<p>Yama is a simple Android messaging application that allows to:     
+                            <ul>
+                                <li>Pick a contact and send a text message to that contact</li>
+                                <li>Get notifications for received messages</li>
+                                <li>Have customizable auto-reply messages once a message is received.</li>
+                            </ul>
+                            </p>}                                        
+                        githubLink = "https://github.com/ask710/MessagingApp"
+                        infoTags = {['Java', 'Android']}
+                    />     
                     <Project
                         projectName = "Maze Solver"
                         projectImage = "./img/Maze.svg"
