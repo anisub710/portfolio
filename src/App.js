@@ -102,7 +102,7 @@ class App extends Component {
                                 <li>Share news stories with others so they too can be informed.</li>
                             </ul>
                         </p>}                              
-                        githubLink = "https://github.com/ask710/Geopaint"
+                        githubLink = "https://github.com/ask710/News"
                         infoTags = {['Java', 'Android']}
                     />          
                     
