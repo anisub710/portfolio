@@ -36,7 +36,9 @@ class App extends Component {
                      I aim to increasingly integrate accessible technology into society, especially in <strong>health care</strong> and <strong>education</strong>. I believe 
                      that my exposure to various cultures having lived and studied in cities such as Mumbai, Bangalore, Singapore, London and Seattle, 
                      and my involvment in the community provides me a strong perspective to build <strong>user-centered technology.</strong></p>} 
-                    skills = {["Go", "R", "Javascript", "Java", "Node.js", "React.js", "SQL", "Android", "MongoDB", "MySQL", "iOS", "PHP", "Firebase", "Digital Ocean", "Terraform"]}/>
+                    langSkills = {["Java",  "Go", "Kotlin", "Swift", "R",  "Typescript", "React.js", "React Native", "Node.js", "MySQL", "MongoDB", "Redis", "Kafka"]}
+                    tools = {["Git", "Docker", "Digital Ocean", "AWS",  "Cisco Packet Tracer", "Terraform"]}
+                    />
                 </Row>
             </div>            
             <div id = "project">        
@@ -70,6 +72,23 @@ class App extends Component {
                         infoTags = {["Go", "Node.js", "Digital Ocean", "MySQL", "Redis", "RabbitMQ"]}
                     />
                     <Project
+                            projectName = "CourtVision"
+                            projectImage = "./img/CourtVision.svg"
+                            projectDesc = {<p>Court vision is an iOS application that connects people who want to play basketball, by providing a platform that allows users
+                                to organize matches around them to compete with their teams. It has the following components: 
+                                <ul>
+                                    <li>Authentication: Allows users to sign up (backed by Firebase) with an email to use the application.</li>
+                                    <li>User Profile: Allows users to build profiles with their information such as age, height, weight, position, etc.</li>
+                                    <li>Team Roster: Allows to join teams and see their team rosters containing other user profiles. Assigned an admin to manage team.</li>
+                                    <li>Game Map: Shows nearby games hosted by teams with location and time. </li>
+                                    <li>Game Matchmaking: Allows to create games, teams to join games and manages result of games. </li>
+                                    <li>Ranking: Shows team rankings based on wins and losses.</li>
+                                </ul>
+                                </p>}
+                            githubLink = "https://github.com/aaronluannguyen/CourtVision"
+                            infoTags = {["Swift", "iOS", "Firebase"]}
+                    />
+                    <Project
                         projectName = "In'dice'ision"
                         projectImage = "./img/InDiceision.svg"
                         projectDesc = {<p>Indiceision is for the indecisive. The purpose is to facilitate human interaction by removing the analysis paralysis of choosing an activity. 
@@ -89,7 +108,7 @@ class App extends Component {
                         </ul>
                         </p>}
                         githubLink = "https://github.com/heyjasonxu/Indiceision"
-                        infoTags = {['Java', 'Android']}
+                        infoTags = {['Java', 'Android', "Firebase"]}
                     /> 
                     <Project
                         projectName = "News"
@@ -204,7 +223,7 @@ class App extends Component {
                     /> 
                     <Project
                         projectName = "Eatout"
-                        projectImage = "./img/eatout.svg"
+                        projectImage = "./img/eatout2.svg"
                         projectDesc = {<p>Eatout is an application made in R and deployed using Shiny that:     
                             <ul>
                                 <li>Shows average ratings of each state using the Yelp API on a choropleth map (using Leaflet).</li>
@@ -231,13 +250,16 @@ class App extends Component {
                         expImage = "./img/iSchool.svg"
                         expTitle =  "University of Washington Information School" 
                         time = "SEPTEMBER 2017 - CURRENT" 
-                        infoTags = {['Teaching Assistant', 'Android', 'Kotlin', 'R']} 
-                        shortDesc = {<p>Teaching Assistant for INFO 448 (Mobile Development: Android) and INFO 201 (Techinical Foundations in R)</p>}
+                        infoTags = {['Teaching Assistant', 'Server-Side Development','Android', 'Technical Foundations']} 
+                        shortDesc = {<p>Teaching Assistant for INFO 441 (Server-Side Web Development), INFO 448 (Mobile Development: Android) and INFO 201 (Techinical Foundations in R)</p>}
                         expDesc = {<div>
-                            <p><strong className = "sub-heading">INFO 448 - Android Development:</strong> Plan and conduct lab sections instructing students in Android development using Kotlin.
-                         Design and grade homework and lab assignments. (September 2018 - Current)</p>
-                         <p><strong className = "sub-heading">INFO 201 - Technical Foundations:</strong> Planned and conducted lab sections instructing students in R and Github.  
-                         Designed and graded homework and lab assignments. Built automated test scripts to grade assignments. (September 2017 - June 2018)</p>
+                            <p><strong className = "sub-heading">INFO 441 - Server-Side Web Development:</strong> Teach students to build and deploy web servers in Go, that includes user authentication,
+                             authorize and validate persistent data, micro-service architecture, message queues and web sockets to notify changes in real-time. Teach own material on 
+                             distributed systems. (January 2019 - Current)</p>
+                            <p><strong className = "sub-heading">INFO 448 - Android Development:</strong> Taught students to build Android applications using Kotlin, implementing user interactivity, networking, 
+                            sensor access and data storage and retreival. (September 2018 - December 2018)</p>
+                         <p><strong className = "sub-heading">INFO 201 - Technical Foundations:</strong> Introduced students to data collection, storage, wrangling, analysis, and visualization in R. 
+                         Built automated test scripts to grade assignments. (September 2017 - June 2018)</p>
                          </div>}
                     /> 
                 </Row>

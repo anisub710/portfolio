@@ -28,7 +28,8 @@ export default class About extends React.Component  {
         const {
             aboutImage,
             aboutDesc,
-            skills
+            langSkills,
+            tools
         } = this.props;
 
         function SkillsList({skills}) {
@@ -50,7 +51,8 @@ export default class About extends React.Component  {
                     <div id = "content">                        
                         <h1 id = "greetings"> Hey! </h1> 
                         <p className = "about-desc"> {aboutDesc}</p> 
-                        <p className = "about-desc"><strong className = "skills-header">Languages and Technologies I have worked with:</strong> <SkillsList skills = {skills}/></p>                        
+                        <p className = "about-desc"><strong className = "skills-header">Languages and Frameworks I have worked with:</strong> <SkillsList skills = {langSkills}/></p>
+                        <p className = "about-desc"><strong className = "skills-header">Tools I have worked with:</strong> <SkillsList skills = {tools}/></p>                        
                     </div> 
                         <a className = "arrow-down" onClick = {() => {this.timer("project")}} href="#Project"> {React.createElement(down, null)} </a>                 
                 </div>
