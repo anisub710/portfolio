@@ -61,6 +61,7 @@ export default class MyNavBar extends React.Component  {
 
 
     render() {  
+        const {resume} = this.props;
         //try to clean up
         document.onscroll = () => {
             let button = document.getElementById("up-btn");
@@ -90,7 +91,7 @@ export default class MyNavBar extends React.Component  {
             <Navbar fixed = "true" className = "my-nav" brand= {<img className = "menu"/>} right>
                 <NavItem id = "project-tab" className = "my-tab" href = "#Project" onClick = {() => {this.timer("project")}}>projects</NavItem>
                 <NavItem id = "experience-tab" className = "my-tab" href = "#Experience" onClick = {() => {this.timer("experience")}}>experience</NavItem>
-                <NavItem className = "my-tab" href='./Resume.pdf'>resume</NavItem>
+                <NavItem className = "my-tab" href= {resume}>resume</NavItem>
             </Navbar>         
                 <Button id = "up-btn" title = "Go back to About" onClick = {() => {this.timer("about")}} floating icon='arrow_drop_up' className='blue hidden' large >
                 </Button>

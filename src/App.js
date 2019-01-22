@@ -26,7 +26,7 @@ class App extends Component {
     }   
     return (
       <div>                 
-            <MyNavBar/>             
+            <MyNavBar resume = "./Resume.pdf"/>             
             <div id = "about">    
                 <Row>                                           
                 <About
@@ -313,7 +313,7 @@ class App extends Component {
                     />  
                 </Row>
             </div>
-            <MyFooter/>
+            <MyFooter resume = "./Resume.pdf"/>
         </div>
     );
   }
