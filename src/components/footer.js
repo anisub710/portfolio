@@ -11,7 +11,7 @@ export default class MyFooter extends React.Component {
         var githubLink = 'https://github.com/ask710';
         var linkedin = 'https://www.linkedin.com/in/anirudh-subramanyam/';
         var mail = 'mailto:ask710@uw.edu';
-        const {resume} = this.props;        
+        const resume = this.props;   
         return(
             <div className = "footer copyright my-footer">
                 <Row>
@@ -23,7 +23,7 @@ export default class MyFooter extends React.Component {
                         <a className = "icon" href={githubLink}> {React.createElement(FaGithub, null)}</a>
                         <a className = "icon" href={linkedin}> {React.createElement(FaLinkedIn, null)}</a>
                         <a className = "icon" href={mail}> {React.createElement(FaMail, null)}</a>
-                        <a className = "icon" href= {resume}> {React.createElement(FaFile, null)}</a>
+                        <a className = "icon" href= "./Resume.pdf" target = "_blank"> {React.createElement(FaFile, null)}</a>
                     </Col>
                 </Row>
             </div>

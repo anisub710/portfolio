@@ -3,7 +3,7 @@ import {Button, Navbar, NavItem} from 'react-materialize';
 import ScrollAnimation from 'react-animate-on-scroll';
 import '../index.css';
 import './navbar.css';
-
+import Pdf from '../Resume.pdf'
 export default class MyNavBar extends React.Component  {
 
     timer(place){        

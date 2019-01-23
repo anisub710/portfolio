@@ -8,6 +8,7 @@ import About from "./views/about/about";
 import MyFooter from "./components/footer";
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Document, Page } from 'react-pdf'
 
 class App extends Component {
   constructor(props) {
