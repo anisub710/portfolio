@@ -146,3 +146,8 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
 #sidenav-overlay {
     all: initial;    
 }
+
+#resume-tab-p {
+    height: 45px !important;
+    margin: 0 !important;
+}
